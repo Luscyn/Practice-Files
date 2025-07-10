@@ -1,14 +1,10 @@
 
-
-function Header({title}){
+function Header({header}){
     return (
-    
-    <header>
-        "This is the {title}"
-    </header>
-
+        <>
+            <header>Header: {header}</header>
+        </>
     )
-
 }
 
-export default Header;
+export default Header
